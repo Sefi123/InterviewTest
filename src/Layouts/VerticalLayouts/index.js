@@ -113,7 +113,7 @@ const VerticalLayout = (props) => {
                     style={{
                       height: 20,
                       width: 50,
-                      backgroundColor: "white",
+                      backgroundColor: "#B1D4E0",
                       borderRadius: 25,
                       //   WebkitAnimation: "3s",
                     }}
@@ -126,7 +126,7 @@ const VerticalLayout = (props) => {
                   >
                     <div
                       style={{
-                        backgroundColor: "blue",
+                        backgroundColor: toggleTheme ? "#145DA0" : "grey",
                         height: "20px",
                         width: "20px",
                         borderRadius: "25px",
